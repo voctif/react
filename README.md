@@ -7,7 +7,7 @@
 </head>
 <body>
     <div align="center">
-        <h2 align="center"> Iam laraning</h2>
+        <h2 align="center">Just starting learning basic fundamentals of react, js etc</h2>
     </div>
 </body>
 </html>
