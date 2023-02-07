@@ -1,0 +1,10 @@
+.card{
+    background-color: red;
+    margin: 10px;
+    
+}
+.card .titulo{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
