@@ -8,7 +8,7 @@ import Fragmento from './components/basicos/fragmento';
 
 export default () => (
     <div id="app">
-        <Aleatorio/>
+        <Aleatorio min={10} max={60}/>
 
         <Fragmento></Fragmento>
         <Primeiro></Primeiro>
