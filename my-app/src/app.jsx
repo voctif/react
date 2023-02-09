@@ -12,19 +12,19 @@ import Card from "./components/layout/Card";
 export default () => (
     <div className="app">
         <div className="cards">
-            <Card titulo="desafio aleatorio">
-                <Aleatorio min={10} max={60}/>
+            <Card titulo="desafio aleatorio" color="#0F0">
+                <Aleatorio min={1} max={100}/>
             </Card>
 
-            <Card titulo="fragmento">        
+            <Card titulo="fragmento" color="#0F0">        
                 <Fragmento></Fragmento>
             </Card>
 
-            <Card titulo="primeiro">
+            <Card titulo="primeiro" color="#0F0">
                 <Primeiro></Primeiro>
             </Card>
 
-            <Card titulo="com parametro">
+            <Card titulo="com parametro" color="#0F0">
                 <ComParametro titulo="parametro 2" aluno="victor" nota="10"/>
             </Card>
         </div>
