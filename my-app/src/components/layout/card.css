@@ -1,9 +1,13 @@
 .card{
-    background-color: red;
+    background-color: grey;
+    color:black;
     margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
     
 }
 .card .titulo{
+    color:white;
     background-color: blue;
     display: flex;
     justify-content: center;
