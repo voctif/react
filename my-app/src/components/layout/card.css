@@ -5,11 +5,19 @@
     border-radius: 10px;
     overflow: hidden;
     font-size: 1.2rem;
-    
+
+    display: flex;
+    flex-direction: column;
+
+    min-width: 300px;
 }
 .card .titulo{
     color:white;
     background-color: blue;
     display: flex;
     justify-content: center;
+}
+.card .content{
+    flex-grow: 1;
+    padding: 10px;
 }
