@@ -24,16 +24,16 @@ export default () => (
             <Card titulo="familia" color="#0F0">
                 <Familia sobrenome="ferreira">
                     <Familiamembro nome="pedro" />
-                    <Familiamembro nome="paulo"/>
-                    <Familiamembro nome="pam"/>
+                    <Familiamembro nome="paulo" />
+                    <Familiamembro nome="pam" />
                 </Familia>
             </Card>
 
             <Card titulo="desafio aleatorio" color="#0F0">
-                <Aleatorio min={1} max={100}/>
+                <Aleatorio min={1} max={100} />
             </Card>
 
-            <Card titulo="fragmento" color="#0F0">        
+            <Card titulo="fragmento" color="#0F0">
                 <Fragmento></Fragmento>
             </Card>
 
@@ -42,10 +42,10 @@ export default () => (
             </Card>
 
             <Card titulo="com parametro" color="#0F0">
-                <ComParametro titulo="parametro 2" aluno="victor" nota="10"/>
+                <ComParametro titulo="parametro 2" aluno="victor" nota="10" />
             </Card>
-            
+
         </div>
     </div>
-    
+
 )
