@@ -1,6 +1,7 @@
 import React from "react";
 import './apps.css';
 
+import tabelaprodutos from "./components/repeticao/tabelaprodutos";
 import Listalaunos from "./components/repeticao/listalaunos";
 
 import Familia from "./components/basicos/familia";
@@ -11,11 +12,16 @@ import Primeiro from './components/basicos/primeiro';
 import ComParametro from './components/basicos/comParametro';
 import Fragmento from './components/basicos/fragmento';
 import Card from "./components/layout/Card";
+import Tabelaprodutos from "./components/repeticao/tabelaprodutos";
 
 
 export default () => (
     <div className="app">
         <div className="cards">
+
+            <Card titulo="desafio repeticao" color="#0F0">
+                <Tabelaprodutos></Tabelaprodutos>
+            </Card>
 
             <Card titulo="repeticao" color="#0F0">
                 <Listalaunos></Listalaunos>
